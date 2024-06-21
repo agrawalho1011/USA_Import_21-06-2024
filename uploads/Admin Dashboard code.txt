@@ -1,0 +1,131 @@
+ <div class="row row-cols-9">
+        @*<div class="col">
+            <!-- small box -->
+            <div class="small-box bg-secondary">
+                <div class="inner">
+                    <h3 id="Received">0</h3>
+                    <p>Received</p>
+                </div>
+               
+            </div>
+        </div>*@
+        <!-- ./col -->
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-info">
+
+                <div class="inner">
+                    <h3 id="WIP">0</h3>
+
+                    <p id="WIPValue">WIP</p>
+                </div>
+
+
+                <div class="icon">
+                    <i class="ion ion-stats-bars"></i>
+                </div>
+                <a href="#" id="Show_WIP" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-orange">
+                <div class="inner">
+                    <h3 id="UnAllocated">0</h3>
+                    <p>UnAllocated</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Show_UnAllocated" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-success">
+                <div class="inner">
+                    <h3 id="Completed">0</h3>
+                    <p id="CompValue">Completed</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-person-add"></i>
+                </div>
+                <a href="#" id="Show_Completed" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-warning">
+                <div class="inner">
+                    <h3 id="Pending">0</h3>
+
+                    <p id="PendValue">Pending</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Show_Pending" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-gradient-blue">
+                <div class="inner">
+                    <h3 id="Query">0</h3>
+                    <p>Query</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Show_Query" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-danger">
+                <div class="inner">
+                    <h3 id="eta10">0</h3>
+
+                    <p>ETA - 10</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Showeta10" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-cyan">
+                <div class="inner">
+                    <h3 id="eta12">0</h3>
+
+                    <p>ETA - 12</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Showeta12" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <div class="col">
+            <!-- small box -->
+            <div class="small-box bg-dark">
+                <div class="inner">
+                    <h3 id="eta18">0</h3>
+
+                    <p>ETA - 18</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="#" id="Showeta18" class="small-box-footer">Show <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+         
+        <!-- ./col -->
+
+    </div>
